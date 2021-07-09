@@ -42,6 +42,7 @@ function setup(){
 
 function draw(){
     background("white");
+     Engine.update(engine);
     ground.display();
     stack1.display();
     box1.display();
